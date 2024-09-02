@@ -1,0 +1,71 @@
+# Ignorar arquivos temporários e de configuração local
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Arquivos de banco de dados locais
+*.sql
+*.sqlite
+*.db
+
+# IDEs e ferramentas específicas
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.ncb
+*.suo
+*.user
+*.userosscache
+*.suo
+*.pdb
+*.opendb
+*.suo
+
+# Node modules (para projetos com JavaScript/Node.js)
+node_modules/
+
+# Arquivos de build
+dist/
+build/
+
+# Diretórios de cache
+cache/
+Enunciado do Projeto
+Desafio de Projeto: Sistema de Gerenciamento de Vendas
+
+Contexto: Você foi contratado para desenvolver um sistema de gerenciamento de vendas para uma loja local. O sistema deve facilitar a administração das informações sobre produtos, clientes e transações de vendas, proporcionando uma forma eficiente de gerenciar e acompanhar essas informações.
+
+Objetivo: Criar um banco de dados completo que permita gerenciar produtos, clientes e vendas. O sistema deve incluir a criação de tabelas para armazenar as informações necessárias, além de consultas e operações básicas para manipular e gerar relatórios dos dados.
+
+Requisitos:
+
+1. Criação do Banco de Dados:
+
+Crie um banco de dados chamado sistema_vendas.
+
+2. Criação das Tabelas:
+
+Tabela de Clientes: Identificador único, nome, email e telefone.
+Tabela de Produtos: Identificador único, nome, preço e quantidade em estoque.
+Tabela de Vendas: Identificador único, identificador do cliente, identificador do produto, quantidade vendida e data da venda.
+
+3. Inserção de Dados:
+
+Insira pelo menos 3 clientes, 3 produtos e 5 registros de vendas no banco de dados.
+
+4. Consultas e Relatórios:
+
+Crie consultas para mostrar todas as vendas realizadas, listar todas as compras de um cliente específico e exibir o total de vendas por produto.
+
+5. Atualização e Exclusão de Dados:
+
+Implemente operações para atualizar o estoque de produtos após uma venda, atualizar informações de clientes e deletar vendas e clientes conforme necessário.
+
+6. Validação e Testes:
+
+Teste todas as operações implementadas para garantir que o sistema funcione corretamente e que os dados sejam manipulados conforme o esperado.
